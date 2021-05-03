@@ -24,6 +24,7 @@ namespace Dev.Loja.Carros.Models
 
         public Carro()
     {
+            //new instance Id
             Id = Guid.NewGuid();
     }
   }
